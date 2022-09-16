@@ -1,0 +1,83 @@
+nav {
+    background-color: #565669 !important;
+}
+
+#nav-links li a {
+    color: white !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#nav-links li a:hover {
+    color: black !important;
+}
+
+#dropdown {
+    background-color: #9980FA;
+    border-radius: 15px;
+}
+
+#dropdown li a {
+    color: black !important;
+}
+
+.active {
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+
+#product-heading {
+    border: 3px solid black;
+    width: 500px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+}
+
+#breadcrumb-sec {
+    background-color: #3e2b86 !important;
+}
+
+#breadcrumb-sec ol {
+    margin: 0px 20px 0px 20px;
+}
+
+#breadcrumb-sec ol li {
+    line-height: 50px;
+    color: white;
+}
+
+#breadcrumb-sec ol li a {
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+#about-links ul li {
+    list-style-type: none;
+}
+
+#about-links ul li i {
+    color: #5758BB;
+    margin-right: 5px;
+}
+
+#serv1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+#formBtn {
+    background-color: #5758BB !important;
+    border: 1px solid #5758BB;
+}
+
+@media screen and (max-width: 996px) {
+    .active {
+        background-color: transparent;
+    }
+}
